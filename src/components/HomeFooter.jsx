@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "./Input";
+import Input from "./interactionComponents/Input";
 import HomeFooterImage from "../assets/HomeFooterImage.png";
 
 const HomeFooter = ({}) => {

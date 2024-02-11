@@ -1,3 +1,11 @@
 .input-custom::-webkit-input-placeholder {
   font-style: italic;
 }
+
+.listing-bg-image {
+  background-image: url("./assets/ListingBackground.png");
+}
+
+.listing-vertical-height {
+  height: 30vh;
+}
