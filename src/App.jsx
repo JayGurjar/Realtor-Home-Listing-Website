@@ -5,6 +5,7 @@ import { createStore } from "redux";
 import reducer from "./reducer";
 import { Provider } from "react-redux";
 import ListingPage from "./components/ListingPage";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
