@@ -13,7 +13,8 @@ const NavBar = ({navigate}) => {
                 </div>
                 <div className=" mr-auto flex-wrap">
                     About
-                </div>  <div className=" mr-auto flex-wrap">
+                </div>  
+                <div className=" mr-auto flex-wrap">
                     Contact Us
                 </div>
                 <div className=" mr-auto">

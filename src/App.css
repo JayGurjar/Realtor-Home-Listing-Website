@@ -7,5 +7,5 @@
 }
 
 .listing-vertical-height {
-  height: 35vh;
+  height: fit-content;
 }
