@@ -1,6 +1,7 @@
 import React from "react";
+import Button from "./interactionComponents/Button";
 
-const NavBar = ({}) => {
+const NavBar = ({navigate}) => {
     return (
         <div className="flex text-white bg-black py-4 px-3 flex-wrap">
             <div className=" mr-auto">
@@ -12,15 +13,14 @@ const NavBar = ({}) => {
                 </div>
                 <div className=" mr-auto flex-wrap">
                     About
-                </div>  <div className=" mr-auto flex-wrap">
+                </div>  
+                <div className=" mr-auto flex-wrap">
                     Contact Us
                 </div>
                 <div className=" mr-auto">
                     Login
                 </div>
-                <div className=" mr-auto border-2 rounded-full px-2">
-                    Get Started
-                </div>
+                <Button onClick={() => navigate('listings')} title={"Get Started"} />
             </div>
         </div>
     )
